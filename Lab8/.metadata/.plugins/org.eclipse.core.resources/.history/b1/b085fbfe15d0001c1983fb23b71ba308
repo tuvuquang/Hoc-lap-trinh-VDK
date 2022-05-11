@@ -1,0 +1,95 @@
+#include <stdint.h>
+#include <stm32f401re_adc.h>
+#include <stm32f401re_usart.h>
+#include <stm32f401re_gpio.h>
+#include <stm32f401re_rcc.h>
+#include <timer.h>
+
+#include <typedefs.h>
+
+/******************************************************************************/
+/*                     PRIVATE TYPES and DEFINITIONS                         */
+/******************************************************************************/
+
+
+/******************************************************************************/
+/*                     EXPORTED TYPES and DEFINITIONS                         */
+/******************************************************************************/
+#define ADC_GPIO_PIN							GPIO_Pin_0
+#define ADC_GPIO_PORT							GPIOA
+
+/******************************************************************************/
+/*                              PRIVATE DATA                                  */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                              EXPORTED DATA                                 */
+/******************************************************************************/
+
+/******************************************************************************/
+/*                            PRIVATE FUNCTIONS                               */
+/******************************************************************************/
+
+static void_t USART2_Init(void_t);
+
+/******************************************************************************/
+/*                            EXPORTED FUNCTIONS                              */
+/******************************************************************************/
+
+/******************************************************************************/
+
+int main(void_t)
+{
+	SystemCoreClockUpdate();
+	USART2_Init();
+
+	while(1)
+	{
+		int i=1;
+		delay();
+		USART_SendData(USART2, i);
+		i++;
+	}
+}
+
+/*
+ * @func   USART2_Init
+ * @brief  Initialize USART2
+ * @param  None
+ * @retval None
+ */
+static void_t USART2_Init(void_t)
+{
+	GPIO_InitTypeDef 					GPIO_InitStruct;
+	USART_InitTypeDef					USART_InitStruct;
+
+	RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
+
+	GPIO_InitStruct.GPIO_Mode = GPIO_Mode_AF;
+	GPIO_InitStruct.GPIO_Speed = GPIO_Speed_100MHz;
+	GPIO_InitStruct.GPIO_OType = GPIO_OType_PP;
+	GPIO_InitStruct.GPIO_PuPd = GPIO_PuPd_UP;
+	GPIO_InitStruct.GPIO_Pin = GPIO_Pin_2;
+	GPIO_Init(GPIOA, &GPIO_InitStruct);
+
+	GPIO_PinAFConfig(GPIOA, GPIO_PinSource2, GPIO_AF_USART2);
+
+	//Enable USART
+
+	RCC_APB1PeriphClockCmd(RCC_APB1Periph_USART2, ENABLE);
+
+	USART_InitStruct.USART_BaudRate = 9600;
+	USART_InitStruct.USART_HardwareFlowControl = USART_HardwareFlowControl_None;
+	USART_InitStruct.USART_Mode = USART_Mode_Tx;
+	USART_InitStruct.USART_Parity = USART_Parity_No;
+	USART_InitStruct.USART_StopBits = USART_StopBits_1;
+	USART_InitStruct.USART_WordLength = USART_WordLength_8b;
+
+	USART_Init(USART2, &USART_InitStruct);
+
+	USART_Cmd(USART2, ENABLE);
+}
+void_t delay() {
+	for (u32_t i = 0; i < 500000; i++);
+}
+

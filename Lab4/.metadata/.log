@@ -1,0 +1,39 @@
+!SESSION 2022-05-11 08:50:28.072 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-05-11 08:50:39.534
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-11 08:50:39.653
+!MESSAGE Log4j initialized with config file D:\Dev\workspace\target\Lab4\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-11 08:50:42.751
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-11 08:51:16.389
+!MESSAGE Indexed 'bai-1' (3 sources, 53 headers) in 0.988 sec: 1,964 declarations; 2,810 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-11 08:52:20.529
+!MESSAGE Indexed 'bai-1' (48 sources, 90 headers) in 6.69 sec: 9,831 declarations; 28,215 references; 0 unresolved inclusions; 2 syntax errors; 3 unresolved names (0.0079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-11 08:52:40.931
+!MESSAGE Indexed 'bai-1' (48 sources, 90 headers) in 7.7 sec: 9,831 declarations; 28,215 references; 0 unresolved inclusions; 1 syntax errors; 3 unresolved names (0.0079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-11 08:52:48.052
+!MESSAGE Indexed 'bai-1' (48 sources, 90 headers) in 6.89 sec: 9,830 declarations; 28,200 references; 0 unresolved inclusions; 1 syntax errors; 3 unresolved names (0.0079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-11 08:55:35.714
+!MESSAGE Indexed 'bai-2' (2 sources, 53 headers) in 0.935 sec: 1,962 declarations; 2,808 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-11 08:58:24.202
+!MESSAGE Indexed 'bai-2' (48 sources, 90 headers) in 5.78 sec: 9,831 declarations; 28,215 references; 0 unresolved inclusions; 2 syntax errors; 3 unresolved names (0.0079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-11 08:58:50.855
+!MESSAGE Indexed 'bai-2' (48 sources, 90 headers) in 6.57 sec: 9,831 declarations; 28,215 references; 0 unresolved inclusions; 1 syntax errors; 3 unresolved names (0.0079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-11 08:58:58.351
+!MESSAGE Indexed 'bai-2' (48 sources, 90 headers) in 7.22 sec: 9,830 declarations; 28,200 references; 0 unresolved inclusions; 1 syntax errors; 3 unresolved names (0.0079%)

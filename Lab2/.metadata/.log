@@ -1,0 +1,453 @@
+!SESSION 2022-05-08 20:01:13.402 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-05-08 20:05:28.049
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-08 20:05:28.132
+!MESSAGE Log4j initialized with config file D:\Dev\workspace\target\Lab2\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-08 20:05:31.351
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-08 20:06:14.029
+!MESSAGE Indexed 'bai-2' (3 sources, 53 headers) in 1.53 sec: 1,964 declarations; 2,810 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-08 20:09:33.584
+!MESSAGE Indexed 'bai-2' (48 sources, 90 headers) in 6.92 sec: 9,831 declarations; 28,215 references; 0 unresolved inclusions; 2 syntax errors; 3 unresolved names (0.0079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-08 20:11:48.911
+!MESSAGE Indexed 'bai-2' (48 sources, 90 headers) in 6.78 sec: 9,830 declarations; 28,200 references; 0 unresolved inclusions; 1 syntax errors; 3 unresolved names (0.0079%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2022-05-08 20:14:25.019
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 4000000 => SWO: 2000000; CPU: 16000000; div: 8
+
+!ENTRY com.st.stm32cube.ide.mcu.sfrview 4 0 2022-05-08 22:23:14.210
+!MESSAGE Failed to get SVD info for project P/bai-1
+
+!ENTRY com.st.stm32cube.ide.mcu.sfrview 4 0 2022-05-08 22:23:14.228
+!MESSAGE Failed to get SVD info for project P/bai-1
+
+!ENTRY com.st.stm32cube.ide.mcu.sfrview 1 0 2022-05-08 22:23:14.229
+!MESSAGE No valid SVD data file found for project: bai-1
+!STACK 0
+java.lang.Exception: No valid SVD data file found for project: bai-1
+	at com.st.stm32cube.ide.mcu.sfrview.model.SfrRegisterModel.loadDeviceFile(SfrRegisterModel.java:1097)
+	at com.st.stm32cube.ide.mcu.sfrview.model.SfrRegisterModel.initRegisterModel(SfrRegisterModel.java:142)
+	at com.st.stm32cube.ide.mcu.sfrview.model.SfrRegisterModel.setProject(SfrRegisterModel.java:1203)
+	at com.st.stm32cube.ide.mcu.sfrview.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1229)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1178)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:466)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1207)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:242)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:237)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:402)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-08 22:23:17.647
+!MESSAGE Indexed 'bai-1' (48 sources, 77 headers) in 6.39 sec: 11,344 declarations; 30,266 references; 1 unresolved inclusions; 0 syntax errors; 1 unresolved names (0.0024%)
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:23:42.140
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:23:42.140
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:23:42.141
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:23:42.141
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:23:57.795
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:23:57.795
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:23:57.795
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:23:57.796
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:24:08.958
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:24:08.958
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:24:08.958
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:24:08.959
+!MESSAGE Project is null
+
+!ENTRY com.st.stm32cube.ide.mcu.sfrview 4 0 2022-05-08 22:25:19.661
+!MESSAGE Failed to get SVD info for project P/bai-1
+
+!ENTRY com.st.stm32cube.ide.mcu.sfrview 4 0 2022-05-08 22:25:19.661
+!MESSAGE Failed to get SVD info for project P/bai-1
+
+!ENTRY com.st.stm32cube.ide.mcu.sfrview 1 0 2022-05-08 22:25:19.662
+!MESSAGE No valid SVD data file found for project: bai-1
+!STACK 0
+java.lang.Exception: No valid SVD data file found for project: bai-1
+	at com.st.stm32cube.ide.mcu.sfrview.model.SfrRegisterModel.loadDeviceFile(SfrRegisterModel.java:1097)
+	at com.st.stm32cube.ide.mcu.sfrview.model.SfrRegisterModel.initRegisterModel(SfrRegisterModel.java:142)
+	at com.st.stm32cube.ide.mcu.sfrview.model.SfrRegisterModel.setProject(SfrRegisterModel.java:1203)
+	at com.st.stm32cube.ide.mcu.sfrview.model.SfrRegisterModel.selectionChanged(SfrRegisterModel.java:1229)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.notifyListeners(SelectionService.java:266)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.handleSelectionChanged(SelectionService.java:98)
+	at org.eclipse.ui.internal.e4.compatibility.SelectionService.lambda$0(SelectionService.java:72)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$1.run(SelectionAggregator.java:123)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator.notifyListeners(SelectionAggregator.java:120)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.lambda$0(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.contexts.RunAndTrack.runExternalCode(RunAndTrack.java:59)
+	at org.eclipse.e4.ui.internal.workbench.SelectionAggregator$5.changed(SelectionAggregator.java:220)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:108)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.processScheduled(EclipseContext.java:364)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.set(EclipseContext.java:379)
+	at org.eclipse.e4.ui.internal.workbench.SelectionServiceImpl.setSelection(SelectionServiceImpl.java:34)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.selectionChanged(CompatibilityPart.java:471)
+	at org.eclipse.jface.viewers.Viewer$1.run(Viewer.java:151)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.Viewer.fireSelectionChanged(Viewer.java:148)
+	at org.eclipse.jface.viewers.StructuredViewer.updateSelection(StructuredViewer.java:2132)
+	at org.eclipse.jface.viewers.StructuredViewer.handleSelect(StructuredViewer.java:1178)
+	at org.eclipse.ui.navigator.CommonViewer.handleSelect(CommonViewer.java:466)
+	at org.eclipse.jface.viewers.StructuredViewer$4.widgetSelected(StructuredViewer.java:1207)
+	at org.eclipse.jface.util.OpenStrategy.fireSelectionEvent(OpenStrategy.java:242)
+	at org.eclipse.jface.util.OpenStrategy.access$4(OpenStrategy.java:237)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:402)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1157)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1461)
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:25:19.774
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:25:19.774
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:25:19.774
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:25:19.775
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2022-05-08 22:25:27.302
+!MESSAGE Build Artifact is missing in project 'bai-1' configuration 'Default'
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2022-05-08 22:25:27.518
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:26:25.697
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:26:25.697
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:26:25.697
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:26:25.697
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:27:24.319
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:27:24.319
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:27:24.319
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:27:24.319
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:27:43.494
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:27:43.494
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:27:43.494
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:27:43.494
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:27:58.327
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:27:58.327
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:27:58.327
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:27:58.327
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:28:17.722
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:28:17.722
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:28:17.722
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:28:17.723
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:29:04.644
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:29:04.644
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:29:04.644
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:29:04.645
+!MESSAGE Project is null
+!SESSION 2022-05-08 22:35:39.888 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-05-08 22:36:25.163
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-08 22:36:25.622
+!MESSAGE Log4j initialized with config file D:\Dev\workspace\target\Lab2\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-08 22:36:33.455
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:37:33.928
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:37:33.929
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:37:33.929
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:37:33.929
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:42:06.936
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:42:06.936
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:42:06.936
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:42:06.937
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:42:13.334
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:42:13.334
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:42:13.334
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:42:13.334
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2022-05-08 22:42:15.210
+!MESSAGE Build Artifact is missing in project 'bai-1' configuration 'Default'
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:42:30.042
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:42:30.042
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:42:30.043
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:42:30.043
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2022-05-08 22:42:32.076
+!MESSAGE Build Artifact is missing in project 'bai-1' configuration 'Default'
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:42:37.973
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:42:37.973
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:42:37.973
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:42:37.973
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-08 22:44:49.748
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-08 22:44:49.748
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-08 22:44:49.748
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-08 22:44:49.748
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2022-05-08 22:44:55.061
+!MESSAGE Build Artifact is missing in project 'bai-1' configuration 'Default'
+!SESSION 2022-05-09 17:38:14.374 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data D:\Dev\workspace\target\Lab2
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-05-09 17:38:19.104
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-09 17:38:19.187
+!MESSAGE Log4j initialized with config file D:\Dev\workspace\target\Lab2\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-09 17:38:25.858
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-09 17:38:45.801
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-09 17:38:45.801
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-09 17:38:45.801
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-09 17:38:45.802
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2022-05-09 17:38:49.122
+!MESSAGE Build Artifact is missing in project 'bai-1' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2022-05-09 17:39:00.292
+!MESSAGE Build Artifact is missing in project 'bai-1' configuration 'Default'
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.launch 2 0 2022-05-09 17:39:00.432
+!MESSAGE Won't launch debug session since we failed to locate the binary.
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-09 17:40:23.698
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-09 17:40:23.698
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-09 17:40:23.698
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-09 17:40:23.699
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2022-05-09 17:40:24.832
+!MESSAGE Build Artifact is missing in project 'bai-1' configuration 'Default'
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-09 17:40:33.322
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-09 17:40:33.322
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-09 17:40:33.322
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-09 17:40:33.322
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2022-05-09 17:40:34.260
+!MESSAGE Build Artifact is missing in project 'bai-1' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2022-05-09 17:40:43.347
+!MESSAGE Build Artifact is missing in project 'bai-1' configuration 'Default'
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-09 17:40:53.202
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-09 17:40:53.203
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-09 17:40:53.203
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-09 17:40:53.203
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.core.resources 4 77 2022-05-09 17:40:58.992
+!MESSAGE Invalid project description.
+!SUBENTRY 1 unknown 0 0 2022-05-09 17:40:58.992
+!MESSAGE OK
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2022-05-09 17:40:58.992
+!MESSAGE D:\Dev\workspace\target\Lab2\bai-1 overlaps the location of another project: 'bai-1'
+
+!ENTRY com.st.stm32cube.common.projectcreation 4 0 2022-05-09 17:40:58.992
+!MESSAGE Project is null
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 2 0 2022-05-09 17:41:01.744
+!MESSAGE Build Artifact is missing in project 'bai-1' configuration 'Default'
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-09 17:42:50.727
+!MESSAGE Indexed 'bai-3' (3 sources, 53 headers) in 0.972 sec: 1,964 declarations; 2,810 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-09 17:45:37.932
+!MESSAGE Indexed 'bai-3' (48 sources, 90 headers) in 5.84 sec: 9,831 declarations; 28,215 references; 0 unresolved inclusions; 2 syntax errors; 3 unresolved names (0.0079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-09 17:45:46.393
+!MESSAGE Indexed 'bai-3' (48 sources, 90 headers) in 5.79 sec: 9,830 declarations; 28,200 references; 0 unresolved inclusions; 1 syntax errors; 3 unresolved names (0.0079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-09 17:46:23.526
+!MESSAGE Indexed 'bai-3' (48 sources, 90 headers) in 6.59 sec: 9,830 declarations; 28,200 references; 0 unresolved inclusions; 1 syntax errors; 3 unresolved names (0.0079%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-09 17:46:35.706
+!MESSAGE Indexed 'bai-3' (48 sources, 90 headers) in 5.48 sec: 9,830 declarations; 28,200 references; 0 unresolved inclusions; 1 syntax errors; 3 unresolved names (0.0079%)

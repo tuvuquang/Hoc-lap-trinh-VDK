@@ -1,0 +1,13 @@
+main.c:59:5:main	16	static
+main.c:103:6:Delay	24	static
+main.c:117:13:SPI2_Master_Init	40	static
+main.c:189:13:SPI1_Slave_Init	40	static
+main.c:272:13:GPIO_PinControl	16	static
+main.c:284:6:Send_Data	16	static
+main.c:306:9:Revice_Data_Slave	24	static
+main.c:315:13:Revice_Data_Master	16	static
+main.c:332:9:GPIO_Read_Pin	24	static
+main.c:349:6:SPI1_IRQHandler	8	static
+main.c:365:13:Led_init	16	static
+main.c:388:13:Button_init	16	static
+main.c:404:6:AppInitCommon	8	static
